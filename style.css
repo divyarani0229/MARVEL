@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+  
+.bg {
+    background-image: url("./assets/bg1.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top{
+    margin-top: 40px;
+    width: 1200px;
+    height: 50px;
+    background-color: red;
+    overflow: hidden;
+    margin-left: 200px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+
+.page {
+    width: 0px;
+    padding: 10px;
+  }
+  .main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    height: 500px;
+    margin-left: 250px;
+}
+
+.image{
+    width: 110px;
+    height: 110px;
+    border-radius: 5px 5px 0px 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.hero{
+    margin-left: 100px;
+}
+
+h2{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.first{
+    margin-top: 40px;
+ }
+
+ .villian{
+    margin-left: 100px;
+}
+.second{
+    margin-top: 40px;
+}
